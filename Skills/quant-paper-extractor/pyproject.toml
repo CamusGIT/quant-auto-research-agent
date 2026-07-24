@@ -1,0 +1,10 @@
+[project]
+name = "quant-paper-extractor"
+version = "1.0.0"
+description = "Convert quantitative research report PDFs to structured JSONL records"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf4llm>=0.0.20",
+    "pymupdf>=1.25.0",
+    "pypdf>=4.0.0",
+]
